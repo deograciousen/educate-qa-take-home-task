@@ -1,0 +1,27 @@
+{
+  "name": "educate-qa-take-home-task",
+  "version": "1.0.0",
+  "description": "This repo contains my take home task",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:steps": "PRINT_STEPS=1 playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deograciousen/educate-qa-take-home-task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deograciousen/educate-qa-take-home-task/issues"
+  },
+  "homepage": "https://github.com/deograciousen/educate-qa-take-home-task#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.1"
+  }
+}
